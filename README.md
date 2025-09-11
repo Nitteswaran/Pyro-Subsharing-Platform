@@ -1,4 +1,4 @@
-# 🔥 Pyro - Subsharing Platform
+# 🔥 Pyro - Subsharing Platform (https://pyro-omega.vercel.app/)
 
 Pyro is a simple, modern website that offers **ChatGPT Plus**, **Gemini Pro**, and **Canva Pro** subscriptions at affordable prices.  
 Built with **HTML, CSS, and JavaScript**, it integrates with **Stripe Checkout** for secure payments and automatically redirects users to the corresponding private Telegram groups after successful purchase.
