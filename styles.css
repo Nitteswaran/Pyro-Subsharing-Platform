@@ -290,3 +290,17 @@ main {
     padding: 3rem 1rem 2rem;
   }
 }
+
+@media (max-width: 600px) {
+  #nav-bar {
+    flex-wrap: wrap;       /* allow links to go to next line */
+    justify-content: center;
+    gap: 0.5rem;           /* tighter spacing */
+  }
+
+  #nav-bar .nav-link {
+    font-size: 14px;       /* shrink text */
+    padding: 4px 8px;      /* smaller padding */
+  }
+}
+
