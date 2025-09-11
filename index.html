@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyro Subscription</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-inner">
+        <a href="#home" class="brand">
+          <img
+            id="header-img"
+            src="images/PYRO.jpg"
+            alt="Pyro logo"
+          />
+         
+        </a>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#features">How It Works?</a>
+          <a class="nav-link" href="#pricing">Products</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">Meet the Smartest Subsharing Tool <br> ~Pyro~</h1>
+        <p class="tagline">Fast, Cheap, and ridiculously easy to access.</p>
+      </section>
+
+      <section id="pricing" class="section">
+  <h2>Products</h2>
+  <div class="pricing">
+    <div class="price-card">
+      <img src="images/CHATGPT.png" alt="ChatGPT Plus Logo" class="product-logo" />
+      <h3>ChatGPT Plus</h3>
+      <p class="price">$10 / 3 months</p>
+      <ul>
+        <li>Access to GPT-5 (smarter & more accurate answers)</li>
+        <li>Faster response times even during peak hours</li>
+        <li>Priority access to new features & updates</li>
+        <li>More reliable availability (no downtime)</li>
+      </ul>
+      <button onclick="window.location.href='https://buy.stripe.com/fZu7sN8Ncajy8s2esF0x20J'">Buy Now</button>
+    </div>
+
+    <div class="price-card highlight">
+      <img src="images/GEMINI.png" alt="Gemini Pro Logo" class="product-logo" />
+      <h3>Gemini Pro</h3>
+      <p class="price">$10 / 3 months</p>
+      <ul>
+        <li>Google’s Gemini AI advanced model access</li>
+        <li>Better reasoning, coding & problem-solving</li>
+        <li>Access to VEO 2/3</li>
+        <li>Deep integration with Google ecosystem</li>
+      </ul>
+      <button onclick="window.location.href='https://buy.stripe.com/00wbJ3d3s77meQqesF0x20I'">Buy Now</button>
+    </div>
+
+    <div class="price-card">
+      <img src="images/CANVA.png" alt="Canva Pro Logo" class="product-logo" />
+      <h3>Canva Pro</h3>
+      <p class="price">$20 / Lifetime</p>
+      <ul>
+        <li>Access to 100+ million premium assets</li>
+        <li>Brand Kit (upload fonts, logos, brand colors)</li>
+        <li>Background remover & premium templates</li>
+        <li>Unlimited cloud storage for designs</li>
+      </ul>
+      <button onclick="window.location.href='https://buy.stripe.com/8x23cx0gG8bqeQq2JX0x20K'">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+
+      <section id="features" class="section">
+        <h2>How it Works?</h2>
+        <div class="features">
+          <article class="feature-card">
+            <h3>Choose your product</h3>
+            <p>
+              Pick one of the options that best fits your needs. Currently
+              available: ChatGPT Plus, Gemini Pro & Canva Pro.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Make Secure Payment</h3>
+            <p>
+              Click the Buy Now button and pay with debit card, credit card, or
+              Touch N’ Go. A simple one-time payment — no hidden charges.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Get Instant Access</h3>
+            <p>
+              After payment, you’ll be redirected to our exclusive Telegram
+              channel with your login details.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Questions? We’re here to help.</p>
+
+        <!-- WhatsApp Contact Button -->
+        <a
+          href="https://wa.me/60147697669"
+          target="_blank"
+          class="whatsapp-btn"
+        >
+          <img
+            src="images/whatsappy.png"
+            alt="WhatsApp Logo"
+          />
+          Chat with us on WhatsApp
+        </a>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          At Pyro, we believe premium tools should be accessible, simple, and
+          hassle-free. That’s why we bring you the world’s most powerful
+          productivity and creativity apps — ChatGPT Plus, Gemini Pro, and Canva
+          Pro — all in one place. Whether you’re boosting your workflow with AI,
+          unlocking smarter research and coding, or designing like a pro, Pyro
+          makes it seamless: choose your plan, pay securely, and get instant
+          access via our exclusive Telegram channel. Our mission is to save you
+          time, empower your creativity, and give you the unfair advantage you
+          deserve.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Pyro. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
