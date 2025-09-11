@@ -39,8 +39,6 @@ Built with **HTML, CSS, and JavaScript**, it integrates with **Stripe Checkout**
 
 <img width="1153" height="803" alt="Screenshot 2025-09-11 230909" src="https://github.com/user-attachments/assets/feedeb5b-aea2-480d-a996-7c805288051f" />
 
-<img width="814" height="263" alt="Screenshot 2025-09-11 230919" src="https://github.com/user-attachments/assets/c33ec4c7-364d-4d1e-9bdc-6756aa586c44" />
-
 <img width="1219" height="747" alt="Screenshot 2025-09-11 230927" src="https://github.com/user-attachments/assets/e199c444-af68-477a-a2ac-700ec9d7381d" />
 
 
