@@ -106,10 +106,14 @@ main {
   margin: 0 0 0.5rem;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .pyro {
   display: block;
-  width: 100vw;
-  margin: 20px;
+  width: 100%;              /* full width without scrollbar issue */
   font-size: 3rem;
   font-weight: 900;
   color: white;
@@ -128,6 +132,7 @@ main {
     opacity: 1;
   }
 }
+
 
 
 .tagline {
