@@ -120,6 +120,10 @@ main {
   padding: 3rem 1rem;
 }
 
+.h2products {
+  margin-top: -25px;
+}
+
 .section h2 {
   margin-top: -10px;
   font-size: clamp(1.6rem, 1.5vw + 1rem, 2.2rem);
