@@ -158,6 +158,23 @@ main {
 
 /* PRODUCTS */
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #635bff; /* Stripe purple */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #5145cd;
+}
+
+
+
+
 .product-logo {
   width: 250px;        /* good balance: not too big, not too small */
   height: 250px;    /* keeps tall images from stretching */
