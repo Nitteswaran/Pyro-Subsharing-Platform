@@ -107,19 +107,28 @@ main {
 }
 
 .pyro {
-    font-size: 3rem;
-    font-weight: bold;
-    color: white; 
-    background-color: black;
-    font-family: Montserrat, 'sans-serif';
-    font-weight: 900;
-    padding: 10px 20px;
-    margin: 20px auto;
-    text-align: center;
-    justify-content: center;
-    border-radius: 25px;
-    width: 75% vw;
+  display: block;
+  width: 100vw;
+  margin: 20px;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  background-color: black;
+  font-family: Montserrat, sans-serif;
+  padding: 20px 0;
+  text-align: center;
+  transform: translateY(-100px);
+  opacity: 0;
+  animation: slideDown 1s ease-out forwards;
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
+
 
 .tagline {
   color: #555;
