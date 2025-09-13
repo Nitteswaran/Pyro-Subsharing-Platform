@@ -1,3 +1,4 @@
+/* GLOBAL RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,18 +11,15 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #111;
   background: #fafafa;
 }
 
-
 #home {
   margin-bottom: 2px;
 }
-
 
 /* HEADER / NAVBAR */
 #header {
@@ -38,7 +36,7 @@ body {
 .header-inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 1rem; /* slightly reduced */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,7 +93,7 @@ main {
 .hero {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 4rem 1rem 3rem;
+  padding: 3.5rem 1rem 2.5rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -103,24 +101,21 @@ main {
 #hero-title {
   font-size: clamp(2rem, 2.5vw + 1rem, 3rem);
   font-weight: 700;
-  margin: 0 0 0.5rem;
+  margin: 0 0 1rem;
 }
 
 .pyro {
-    font-size: 3rem;
-    font-weight: bold;
-    color: white; 
-    background-color: black;
-    font-family: Montserrat, 'sans-serif';
-    font-weight: 900;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    text-align: center;
-    justify-content: center;
-    border-radius: 20px;
-  }
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  background-color: black;
+  font-family: Montserrat, 'sans-serif';
+  padding: 12px 24px;
+  margin: 0.5rem 0 1.5rem;
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+}
 
 .tagline {
   color: #555;
@@ -130,10 +125,9 @@ main {
 
 /* SECTIONS */
 .section {
-  margin-top: 0;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem;
 }
 
 .h2products {
@@ -141,10 +135,9 @@ main {
 }
 
 .section h2 {
-  margin-top: -10px;
+  margin: 0 0 1.5rem;
   font-size: clamp(1.6rem, 1.5vw + 1rem, 2.2rem);
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .section p {
@@ -165,12 +158,11 @@ main {
   flex: 1 1 260px;
   border: 1px solid #eee;
   border-radius: 0.75rem;
-  padding: 1.5rem;
+  padding: 1.25rem;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
   background: #fff;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-align: center;
-    align-items: center;
+  text-align: center;
 }
 
 .feature-card:hover {
@@ -179,33 +171,28 @@ main {
 }
 
 /* PRODUCTS */
-
 .btn {
   display: inline-block;
-  padding: 7px 15px;
+  padding: 10px 20px;
   background-color: black;
   color: white;
   text-decoration: none;
   border-radius: 15px;
-  font-weight: semi-bold;
-  margin-top: 15px;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 
 .btn:hover {
   background-color: #222222;
 }
 
-
-
-
 .product-logo {
-  width: 250px;        /* good balance: not too big, not too small */
-  height: 250px;    /* keeps tall images from stretching */
-  object-fit: contain; /* keeps proportions inside box */
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
   margin: 0 auto 1rem auto;
   display: block;
 }
-
 
 .pricing {
   display: flex;
@@ -217,11 +204,12 @@ main {
   flex: 1 1 260px;
   border: 1px solid #eee;
   border-radius: 0.75rem;
-  padding: 1.5rem;
+  padding: 1.25rem;
   text-align: center;
   background: #fff;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   outline: 2px solid #213093;
+  margin-bottom: 1rem; /* added for mobile spacing */
 }
 
 .price-card:hover {
@@ -241,7 +229,7 @@ main {
 }
 
 .price-card button {
-  padding: 0.7rem 1.2rem;
+  padding: 0.8rem 1.4rem;
   border-radius: 0.5rem;
   border: none;
   background: #213093;
@@ -256,30 +244,15 @@ main {
 }
 
 /* WHATSAPP BUTTON */
-
 #contact {
-  text-align: center; /* centers inline elements */
+  text-align: center;
 }
-
-.whatsapp-btn {
-  display: inline-flex; /* make button behave like flex container */
-  align-items: center;  /* center icon & text vertically */
-  justify-content: center;
-  background-color: #25D366; /* WhatsApp green */
-  color: white;
-  padding: 12px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  gap: 8px; /* space between logo and text */
-}
-
 
 .whatsapp-btn {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 20px;
+  padding: 12px 18px;
   background-color: #25d366;
   color: #fff;
   font-size: 16px;
@@ -306,7 +279,7 @@ main {
 .footer {
   border-top: 1px solid #eee;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   color: #666;
   font-size: 0.9rem;
 }
@@ -327,21 +300,46 @@ main {
   }
 
   .hero {
-    padding: 3rem 1rem 2rem;
+    padding: 2.5rem 1rem 2rem;
+  }
+
+  .pyro {
+    font-size: 2.2rem;
+    padding: 10px 16px;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .feature-card, .price-card {
+    padding: 1rem;
   }
 }
 
 @media (max-width: 600px) {
   #nav-bar {
-    flex-wrap: wrap;       /* allow links to go to next line */
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5rem;           /* tighter spacing */
+    gap: 0.5rem;
   }
 
   #nav-bar .nav-link {
-    font-size: 14px;       /* shrink text */
-    padding: 4px 8px;      /* smaller padding */
+    font-size: 14px;
+    padding: 4px 8px;
   }
-  
+
+  .hero {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .section {
+    padding: 1.5rem 1rem;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
 }
 
