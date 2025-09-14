@@ -114,14 +114,15 @@ body {
 .pyro {
   border-radius: 9999px;
   display: block;
-  width: 100%;              /* full width without scrollbar issue */
+  width: 300px;
+  align-items: center;/* full width without scrollbar issue */
   font-size: 3rem;
   font-weight: 900;
   color: white;
   background-color: black;
   font-family: Montserrat, sans-serif;
   padding: 20px 0;
-  margin: 30px;
+  margin: 30px auto;
   text-align: center;
   transform: translateY(-100px);
   opacity: 0;
