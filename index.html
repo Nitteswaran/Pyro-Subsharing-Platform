@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pyro Subscription</title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XW813K8QMW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-XW813K8QMW');
+    </script>
   </head>
   <body>
     <header id="header">
@@ -20,95 +32,120 @@
             src="images/PYRO.jpg"
             alt="Pyro logo"
           />
-         
         </a>
         <nav id="nav-bar">
-          <a class="nav-link" href="#features">How It Works?</a>
           <a class="nav-link" href="#pricing">Products</a>
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#features">How It Works?</a>
           <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#about">About</a>
         </nav>
       </div>
     </header>
 
     <main id="home">
-  <section class="hero" aria-labelledby="hero-title">
-    <h1 id="hero-title">
-      Meet the Smartest Subsharing Tool <br>
-      <span class="pyro">PYRO</span>
-    </h1>
-    <p class="tagline">Fast, Cheap, and ridiculously easy to access.</p>
-  </section>
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="fade-in">
+          Meet the Smartest Subsharing Tool <br />
+          <span class="pyro">PYRO</span>
+        </h1>
+        <p class="tagline fade-in">
+          Fast, Cheap, and ridiculously easy to access.
+        </p>
+      </section>
 
       <section id="pricing" class="section">
-  <h2 class="h2products">Products</h2>
-  <div class="pricing">
-    <div class="price-card">
-      <img src="images/CHATGPT.png" alt="ChatGPT Plus Logo" class="product-logo" />
-      <h3>ChatGPT Plus</h3>
-      <p class="price">$10 / 3 months</p>
-      <ul>
-        <li>Access to GPT-5 (smarter & more accurate answers)</li>
-        <li>Faster response times even during peak hours</li>
-        <li>Priority access to new features & updates</li>
-        <li>More reliable availability (no downtime)</li>
-      </ul>
-      <a href="https://buy.stripe.com/fZu7sN8Ncajy8s2esF0x20J" target="_blank" class="btn">
-  Buy Now
-</a>
-    </div>
+        <h2 class="h2products fade-in">Products</h2>
+        <div class="pricing">
+          <div class="price-card fade-in">
+            <img
+              src="images/CHATGPT.png"
+              alt="ChatGPT Plus Logo"
+              class="product-logo"
+            />
+            <h3>ChatGPT Plus</h3>
+            <p class="price">$10 / 3 months</p>
+            <ul>
+              <li>Access to GPT-5 (smarter & more accurate answers)</li>
+              <li>Faster response times even during peak hours</li>
+              <li>Priority access to new features & updates</li>
+              <li>More reliable availability (no downtime)</li>
+            </ul>
+            <a
+              href="https://buy.stripe.com/fZu7sN8Ncajy8s2esF0x20J"
+              target="_blank"
+              class="btn"
+            >
+              Buy Now
+            </a>
+          </div>
 
-    <div class="price-card highlight">
-      <img src="images/GEMINI.png" alt="Gemini Pro Logo" class="product-logo" />
-      <h3>Gemini Pro</h3>
-      <p class="price">$10 / 3 months</p>
-      <ul>
-        <li>Google’s Gemini AI advanced model access</li>
-        <li>Better reasoning, coding & problem-solving</li>
-        <li>Access to VEO 2/3</li>
-        <li>Deep integration with Google ecosystem</li>
-      </ul>
-     <a href="https://buy.stripe.com/00wbJ3d3s77meQqesF0x20I" target="_blank" class="btn">
-  Buy Now
-     </a>
-    </div>
+          <div class="price-card highlight fade-in" data-delay="100">
+            <img
+              src="images/GEMINI.png"
+              alt="Gemini Pro Logo"
+              class="product-logo"
+            />
+            <h3>Gemini Pro</h3>
+            <p class="price">$10 / 3 months</p>
+            <ul>
+              <li>Google’s Gemini AI advanced model access</li>
+              <li>Better reasoning, coding & problem-solving</li>
+              <li>Access to VEO 2/3</li>
+              <li>Deep integration with Google ecosystem</li>
+            </ul>
+            <a
+              href="https://buy.stripe.com/00wbJ3d3s77meQqesF0x20I"
+              target="_blank"
+              class="btn"
+            >
+              Buy Now
+            </a>
+          </div>
 
-    <div class="price-card">
-      <img src="images/CANVA.png" alt="Canva Pro Logo" class="product-logo" />
-      <h3>Canva Pro</h3>
-      <p class="price">$20 / Lifetime</p>
-      <ul>
-        <li>Access to 100+ million premium assets</li>
-        <li>Brand Kit (upload fonts, logos, brand colors)</li>
-        <li>Background remover & premium templates</li>
-        <li>Unlimited cloud storage for designs</li>
-      </ul>
-      <a href="https://buy.stripe.com/8x23cx0gG8bqeQq2JX0x20K" target="_blank" class="btn">
-  Buy Now
-</a>
-    </div>
-  </div>
-</section>
-
+          <div class="price-card fade-in" data-delay="200">
+            <img
+              src="images/CANVA.png"
+              alt="Canva Pro Logo"
+              class="product-logo"
+            />
+            <h3>Canva Pro</h3>
+            <p class="price">$20 / Lifetime</p>
+            <ul>
+              <li>Access to 100+ million premium assets</li>
+              <li>Brand Kit (upload fonts, logos, brand colors)</li>
+              <li>Background remover & premium templates</li>
+              <li>Unlimited cloud storage for designs</li>
+            </ul>
+            <a
+              href="https://buy.stripe.com/8x23cx0gG8bqeQq2JX0x20K"
+              target="_blank"
+              class="btn"
+            >
+              Buy Now
+            </a>
+          </div>
+        </div>
+      </section>
 
       <section id="features" class="section">
-        <h2>How it Works?</h2>
+        <h2 class="fade-in">How it Works?</h2>
         <div class="features">
-          <article class="feature-card">
+          <article class="feature-card fade-in">
             <h3>Choose your product</h3>
             <p>
               Pick one of the options that best fits your needs. Currently
               available: ChatGPT Plus, Gemini Pro & Canva Pro.
             </p>
           </article>
-          <article class="feature-card">
+          <article class="feature-card fade-in" data-delay="100">
             <h3>Make Secure Payment</h3>
             <p>
               Click the Buy Now button and pay with debit card, credit card, or
-              Link Pay. Payment flow is through Stripe. A simple one-time payment — no hidden charges.
+              Link Pay. Payment flow is through Stripe. A simple one-time payment
+              — no hidden charges.
             </p>
           </article>
-          <article class="feature-card">
+          <article class="feature-card fade-in" data-delay="200">
             <h3>Get Instant Access</h3>
             <p>
               After payment, you’ll be redirected to our exclusive Telegram
@@ -119,26 +156,23 @@
       </section>
 
       <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Questions? We’re here to help.</p>
+        <h2 class="fade-in">Contact</h2>
+        <p class="fade-in">Questions? We’re here to help.</p>
 
-        <!-- WhatsApp Contact Button -->
         <a
           href="https://wa.me/60147697669"
           target="_blank"
-          class="whatsapp-btn"
+          class="whatsapp-btn fade-in"
+          data-delay="100"
         >
-          <img
-            src="images/whatsappy.png"
-            alt="WhatsApp Logo"
-          />
+          <img src="images/whatsappy.png" alt="WhatsApp Logo" />
           Chat with us on WhatsApp
         </a>
       </section>
 
       <section id="about" class="section">
-        <h2>About</h2>
-        <p>
+        <h2 class="fade-in">About</h2>
+        <p class="fade-in">
           At Pyro, we believe premium tools should be accessible, simple, and
           hassle-free. That’s why we bring you the world’s most powerful
           productivity and creativity apps — ChatGPT Plus, Gemini Pro, and Canva
@@ -150,6 +184,8 @@
           deserve.
         </p>
       </section>
+
+      
     </main>
 
     <footer class="footer">
@@ -157,9 +193,28 @@
     </footer>
 
     <script>
-      document.getElementById("year").textContent =
-        new Date().getFullYear();
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // ** Fade-in-on-scroll functionality **
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Apply stagger delay if present
+            const delay = entry.target.getAttribute('data-delay') || 0;
+            setTimeout(() => {
+              entry.target.classList.add('appear');
+              observer.unobserve(entry.target); // Stop observing once it's visible
+            }, delay);
+          }
+        });
+      }, {
+        threshold: 0.1, // Trigger when 10% of the element is visible
+      });
+
+      // Observe all elements with the 'fade-in' class
+      document.querySelectorAll('.fade-in').forEach((el) => {
+        observer.observe(el);
+      });
     </script>
   </body>
 </html>
-
